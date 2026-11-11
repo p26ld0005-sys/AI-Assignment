@@ -8,7 +8,10 @@ FILES
 -----
 reasoning_agent.ipynb  Complete implementation (parser, forward chaining, backward chaining, FOL resolution,
                        causal-model reasoner), experiments, reasoning traces, submission.csv generator, report
-                       generator. Prints final accuracy and inference time at the end.
+                       generator. Prints final accuracy and inference time at the end:
+                         - Overall Accuracy       = average of the accuracies on the three datasets
+                         - Overall Inference Time = average time per sample (seconds) in each dataset,
+                                                    averaged over the three datasets
 report.pdf             Short report (Times New Roman, justified, 1.5 line spacing): representation, algorithms,
                        experiments, reasoning traces.
 submission.csv         Predictions (columns: id,label) for the private test set -- produced by the notebook
